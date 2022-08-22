@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main()
+{
+    int i=3,j=5;
+    int *p, *q;
+    p = &i;
+    q = &j;
+     printf( "1. p == &i;: %d\n", p == &i); 
+     printf( "2. *p - *q;: %d\n", *p - *q);
+     printf( "3. **&p;: %d\n", **&p);
+     printf( "4. 3 - *p/(*q) + 7;: %d\n", 3 - *p/(*q) + 7);
+
+    return 0;
+}
